@@ -1,0 +1,105 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav li {
+    margin-right: 5%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: rgb(129, 0, 168);
+}
+
+table, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table{
+    width: 50%;
+    text-align: center;
+}
+
+th{
+    background-color: lightgrey;
+    color: rgb(129, 0, 168);
+}
+
+td, th{
+    padding: .25%;
+}
+
+tr:hover{
+    background-color: lightgrey;
+    box-shadow: 2px 2px 2px rgb(129, 0, 168);
+}
+
+.button{
+    margin: 2%;
+    padding: 8px 16px;
+    background-color: darkgrey;
+    color: black;
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.button:hover{
+    background-color: lightgrey;
+    box-shadow: 2px 2px 2px;
+}
+
+button{
+    margin: 2%;
+    padding: 8px 16px;
+    background-color: darkgrey;
+    color: black;
+    text-decoration: none;
+    border-radius: 4px;
+    border: 0px;
+    display: inline-block;
+}
+
+button:hover{
+    color: rgb(129, 0, 168);
+    background-color: lightgrey;
+    box-shadow: 2px 2px 2px rgb(129, 0, 168);
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+
+    padding: 3%;
+    border-radius: 10px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+label{
+    display: block;
+}
+
+form p{
+    margin-right: 2%;
+}

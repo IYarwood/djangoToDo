@@ -1,0 +1,26 @@
+{% extends 'mainTemplate.html' %}
+
+{% block content %}
+<table>
+        <tr>
+            <th>Priority</th>
+            <th>Task Name</th>
+            <th>Due Date</th>
+            <th>Update</th>
+            <th>Finish</th>
+        </tr>
+        {% for task in taskInOrder%}
+            <tr>
+                <td>{{task.priority}}</td>
+                <td>{{task.task_name}}</td>
+                <td>{{task.dueDate}}</td>
+                <td><a href=" {% url 'update' id=task.id %}">Update</td>
+                <td><a href=" {% url 'delete' id=task.id %}">Finish</td>
+            </tr>
+        {% endfor %}
+</table>
+
+<a href="{% url 'newTask' %}" class="button">Add Task</a>
+{% endblock %}
+
+    

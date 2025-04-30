@@ -1,0 +1,12 @@
+{% extends 'mainTemplate.html' %}
+
+{% block content %}
+<div class="formContainer">
+    <h2>New Task</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{form.as_p}}
+        <button type="submit">Add Task</button>
+    </form>
+</div>
+{% endblock %}
