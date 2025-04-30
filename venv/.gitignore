@@ -1,3 +1,34 @@
 # Created by venv; see https://docs.python.org/3/library/venv.html
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Environment
+.env
 *.env
+
+# Virtual Environment
+venv/
+env/
+
+# Django Static Files
+staticfiles/
+media/
+
+# VSCode and system files
+.vscode/
+.DS_Store
+
+# Migrations (optional)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+
+# Compiled or temporary files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.swp
+
 
