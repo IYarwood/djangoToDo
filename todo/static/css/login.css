@@ -1,0 +1,48 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    margin: 2%;
+    padding: 8px 16px;
+    background-color: darkgrey;
+    color: black;
+    text-decoration: none;
+    border-radius: 4px;
+    border: 0px;
+    display: inline-block;
+}
+
+button:hover{
+    color: rgb(129, 0, 168);
+    background-color: lightgrey;
+    box-shadow: 2px 2px 2px rgb(129, 0, 168);
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+
+    padding: 3%;
+    border-radius: 10px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+label,input{
+    display: block;
+}
+
+form p{
+    margin-right: 2%;
+}
